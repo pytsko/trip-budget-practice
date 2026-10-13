@@ -1,3 +1,4 @@
 ticket = 1200
 hotel = 2500
-print("Стоимость поездки:", ticket + hotel)
+food = 800
+print("Стоимость поездки:", ticket + hotel + food)
