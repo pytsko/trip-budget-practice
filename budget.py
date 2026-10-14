@@ -5,9 +5,11 @@ transport = 400
 
 print("Стоимость поездки на двоих:", 2* (ticket + hotel + food + transport))
 
-def transport_tax_calculate(transport):
+def transport_tax_calculate(transport: float) -> float:
     return transport * 0.15
 
+def food_tax_calculate(food: float) -> float:
+    return food * 0.20
 
 def count_price(ticket, hotel, food, transport):
     print("Стоимость поездки:", ticket + hotel + food + transport)
