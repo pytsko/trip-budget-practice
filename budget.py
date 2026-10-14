@@ -5,7 +5,7 @@ transport = 400
 
 print("Стоимость поездки на двоих:", 2* (ticket + hotel + food + transport))
 
-def transport_tax_calculate(transport):
+def transport_tax_calculate(transport: float) -> float:
     return transport * 0.15
 
 def food_tax_calculate(food: float) -> float:
